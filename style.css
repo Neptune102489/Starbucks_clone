@@ -76,6 +76,17 @@ img {
   height: 50px;
 }
 
+.navbar-nav-left {
+  text-transform: uppercase;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.navbar-nav-right li:first-child a {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-nav-right img {
   width: 20px;
   height: 20px;
